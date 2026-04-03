@@ -1,0 +1,841 @@
+[1G[0K⠙[1G[0K
+> jsb-design-system@0.1.0 dev
+> next dev -p 5000 -H 0.0.0.0
+
+[1G[0K⠙[1G[0K[1m[38;2;173;127;168m▲ Next.js 16.2.2[39m[22m (Turbopack)
+- Local:         http://localhost:5000
+- Network:       http://0.0.0.0:5000
+[32m[1m✓[22m[39m Ready in 1006ms
+
+[37m[1m○[22m[39m Compiling / ...
+ GET / [32m200[39m in 9.5s[2m (next.js: 9.0s, application-code: 483ms)[22m
+ GET / [32m200[39m in 208ms[2m (next.js: 7ms, application-code: 202ms)[22m
+ GET / [32m200[39m in 204ms[2m (next.js: 4ms, application-code: 200ms)[22m
+ GET / [32m200[39m in 237ms[2m (next.js: 3ms, application-code: 234ms)[22m
+ GET / [32m200[39m in 197ms[2m (next.js: 4ms, application-code: 194ms)[22m
+ GET / [32m200[39m in 213ms[2m (next.js: 3ms, application-code: 210ms)[22m
+ GET / [32m200[39m in 320ms[2m (next.js: 4ms, application-code: 316ms)[22m
+ GET / [32m200[39m in 287ms[2m (next.js: 3ms, application-code: 283ms)[22m
+ GET / [32m200[39m in 214ms[2m (next.js: 4ms, application-code: 211ms)[22m
+ GET / [32m200[39m in 215ms[2m (next.js: 3ms, application-code: 212ms)[22m
+[32m[1m✓[22m[39m Compiled in 973ms
+[32m[1m✓[22m[39m Compiled in 11ms
+[32m[1m✓[22m[39m Compiled in 255ms
+[32m[1m✓[22m[39m Compiled in 10ms
+[32m[1m✓[22m[39m Compiled in 9ms
+[32m[1m✓[22m[39m Compiled in 10ms
+[32m[1m✓[22m[39m Compiled in 9ms
+ GET / [32m200[39m in 202ms[2m (next.js: 4ms, application-code: 198ms)[22m
+ GET / [32m200[39m in 426ms[2m (next.js: 6ms, application-code: 420ms)[22m
+ GET / [32m200[39m in 201ms[2m (next.js: 3ms, application-code: 198ms)[22m
+[32m[1m✓[22m[39m Compiled in 12ms
+ GET / [32m200[39m in 258ms[2m (next.js: 6ms, application-code: 252ms)[22m
+[32m[1m✓[22m[39m Compiled in 2.1s
+[32m[1m✓[22m[39m Compiled in 340ms
+ GET / [32m200[39m in 288ms[2m (next.js: 5ms, application-code: 283ms)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                <Home params={Promise} searchParams={Promise}>
+                  <div style={{display:"flex", ...}}>
+                    <Sidebar>
+                    <main ref={{current:null}} style={{flex:1, ...}}>
+                      <Navbar>
+                      <Hero>
+                        <section id="hero" style={{padding:"1...", ...}}>
+                          <div>
+                          <svg style={{position:"...", ...}} viewBox="0 0 1400 700" preserveAspectRatio="xMidYMid s...">
+                            <defs>
+                            <g className="hero-sun-rays" style={{...}}>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon
++                               points="1000,300 88.058670189454,-315.1121938178213 235.8757924951027,-491.27378037251594"
+-                               points="1000,300 88.058670189454,-315.1121938178213 235.87579249510281,-491.2737803725..."
+                                fill="url(#ray-grad)"
+                              >
+                              <polygon
++                               points="1000,300 235.8757924951027,-491.27378037251594 696.7989086013013,-757.38786553..."
+-                               points="1000,300 235.87579249510281,-491.27378037251594 696.7989086013013,-757.3878655..."
+                                fill="url(#ray-grad)"
+                              >
+                              <polygon
++                               points="1000,300 696.7989086013013,-757.387865532151 923.2678788814619,-797.3204552858067"
+-                               points="1000,300 696.7989086013013,-757.3878655321507 923.2678788814619,-797.320455285..."
+                                fill="url(#ray-grad)"
+                              >
+                              ...
+                            ...
+                          ...
+                      ...
+            ...
+          ...
+ 
+[32m[1m✓[22m[39m Compiled in 12ms
+[32m[1m✓[22m[39m Compiled in 12ms
+[32m[1m✓[22m[39m Compiled in 12ms
+ GET / [32m200[39m in 209ms[2m (next.js: 4ms, application-code: 204ms)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                <Home params={Promise} searchParams={Promise}>
+                  <div style={{display:"flex", ...}}>
+                    <Sidebar>
+                    <main ref={{current:null}} style={{flex:1, ...}}>
+                      <Navbar>
+                      <Hero>
+                        <section id="hero" style={{padding:"1...", ...}}>
+                          <div>
+                          <svg style={{position:"...", ...}} viewBox="0 0 1400 700" preserveAspectRatio="xMidYMid s...">
+                            <defs>
+                            <g className="hero-sun-rays" style={{...}}>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon>
+                              <polygon
++                               points="750,320 -161.941329810546,-295.1121938178213 -14.1242075048973,-471.2737803725..."
+-                               points="750,320 -161.941329810546,-295.1121938178213 -14.124207504897186,-471.27378037..."
+                                fill="url(#ray-grad)"
+                              >
+                              <polygon
++                               points="750,320 -14.1242075048973,-471.27378037251594 446.7989086013012,-737.387865532151"
+-                               points="750,320 -14.124207504897186,-471.27378037251594 446.7989086013012,-737.3878655..."
+                                fill="url(#ray-grad)"
+                              >
+                              <polygon
++                               points="750,320 446.7989086013012,-737.387865532151 673.2678788814619,-777.3204552858067"
+-                               points="750,320 446.7989086013012,-737.3878655321507 673.2678788814619,-777.3204552858067"
+                                fill="url(#ray-grad)"
+                              >
+                              ...
+                            ...
+                          ...
+                      ...
+            ...
+          ...
+ 
+[32m[1m✓[22m[39m Compiled in 14ms
+ GET / [32m200[39m in 217ms[2m (next.js: 4ms, application-code: 213ms)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+              <Home params={Promise} searchParams={Promise}>
+                <div style={{display:"flex", ...}}>
+                  <Sidebar>
+                  <main ref={{current:null}} style={{flex:1, ...}}>
+                    <Navbar>
+                    <Hero>
+                      <section id="hero" style={{padding:"1...", ...}}>
+                        <div>
+                        <div style={{position:"...", ...}}>
+                          <svg className="hero-sun-rays" style={{position:"...", ...}} width="1400" height="1400" ...>
+                            <defs>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368436,718.7719590425636"
+-                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368434,718.7719590425636"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon
++                             points="0,0 516.2187927159415,737.2368398600926 380.3564355666295,815.677008332985"
+-                             points="0,0 516.2187927159414,737.2368398600926 380.3564355666295,815.677008332985"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 -754.8035111508817,490.17513151352426 -893.2915364771898,109.6824090646328"
+-                             points="0,0 -754.8035111508817,490.17513151352415 -893.2915364771898,109.6824090646328"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon
++                             points="0,0 -893.2915364771898,-109.68240906463296 -754.8035111508816,-490.1751315135244"
+-                             points="0,0 -893.2915364771898,-109.68240906463298 -754.8035111508816,-490.1751315135244"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 380.35643556662967,-815.677008332985 516.2187927159414,-737.2368398600926"
+-                             points="0,0 380.35643556662967,-815.6770083329849 516.2187927159414,-737.2368398600926"
+                              fill="url(#ray-grad)"
+                            >
+                            ...
+                          ...
+                        ...
+                    ...
+          ...
+        ...
+ 
+[32m[1m✓[22m[39m Compiled in 11ms
+ GET / [32m200[39m in 223ms[2m (next.js: 6ms, application-code: 218ms)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+              <Home params={Promise} searchParams={Promise}>
+                <div style={{display:"flex", ...}}>
+                  <Sidebar>
+                  <main ref={{current:null}} style={{flex:1, ...}}>
+                    <Navbar>
+                    <Hero>
+                      <section id="hero" style={{padding:"1...", ...}}>
+                        <div>
+                        <div style={{position:"...", ...}}>
+                          <svg className="hero-sun-rays" style={{position:"...", ...}} width="1400" height="1400" ...>
+                            <defs>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368436,718.7719590425636"
+-                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368434,718.7719590425636"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon
++                             points="0,0 516.2187927159415,737.2368398600926 380.3564355666295,815.677008332985"
+-                             points="0,0 516.2187927159414,737.2368398600926 380.3564355666295,815.677008332985"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 -754.8035111508817,490.17513151352426 -893.2915364771898,109.6824090646328"
+-                             points="0,0 -754.8035111508817,490.17513151352415 -893.2915364771898,109.6824090646328"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon
++                             points="0,0 -893.2915364771898,-109.68240906463296 -754.8035111508816,-490.1751315135244"
+-                             points="0,0 -893.2915364771898,-109.68240906463298 -754.8035111508816,-490.1751315135244"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 380.35643556662967,-815.677008332985 516.2187927159414,-737.2368398600926"
+-                             points="0,0 380.35643556662967,-815.6770083329849 516.2187927159414,-737.2368398600926"
+                              fill="url(#ray-grad)"
+                            >
+                            ...
+                          ...
+                        ...
+                    ...
+          ...
+        ...
+ 
+[32m[1m✓[22m[39m Compiled in 12ms
+ GET / [32m200[39m in 284ms[2m (next.js: 7ms, application-code: 277ms)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+              <Home params={Promise} searchParams={Promise}>
+                <div style={{display:"flex", ...}}>
+                  <Sidebar>
+                  <main ref={{current:null}} style={{flex:1, ...}}>
+                    <Navbar>
+                    <Hero>
+                      <section id="hero" style={{padding:"1...", ...}}>
+                        <div>
+                        <div style={{position:"...", ...}}>
+                          <svg className="hero-sun-rays" style={{position:"...", ...}} width="1400" height="1400" ...>
+                            <defs>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368436,718.7719590425636"
+-                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368434,718.7719590425636"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon
++                             points="0,0 516.2187927159415,737.2368398600926 380.3564355666295,815.677008332985"
+-                             points="0,0 516.2187927159414,737.2368398600926 380.3564355666295,815.677008332985"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 -754.8035111508817,490.17513151352426 -893.2915364771898,109.6824090646328"
+-                             points="0,0 -754.8035111508817,490.17513151352415 -893.2915364771898,109.6824090646328"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon
++                             points="0,0 -893.2915364771898,-109.68240906463296 -754.8035111508816,-490.1751315135244"
+-                             points="0,0 -893.2915364771898,-109.68240906463298 -754.8035111508816,-490.1751315135244"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 380.35643556662967,-815.677008332985 516.2187927159414,-737.2368398600926"
+-                             points="0,0 380.35643556662967,-815.6770083329849 516.2187927159414,-737.2368398600926"
+                              fill="url(#ray-grad)"
+                            >
+                            ...
+                          ...
+                        ...
+                    ...
+          ...
+        ...
+ 
+[32m[1m✓[22m[39m Compiled in 11ms
+ GET / [32m200[39m in 215ms[2m (next.js: 4ms, application-code: 211ms)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+              <Home params={Promise} searchParams={Promise}>
+                <div style={{display:"flex", ...}}>
+                  <Sidebar>
+                  <main ref={{current:null}} style={{flex:1, ...}}>
+                    <Navbar>
+                    <Hero>
+                      <section id="hero" style={{padding:"1...", ...}}>
+                        <div>
+                        <div style={{position:"...", ...}}>
+                          <svg className="hero-sun-rays" style={{position:"...", ...}} width="1400" height="1400" ...>
+                            <defs>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368436,718.7719590425636"
+-                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368434,718.7719590425636"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon
++                             points="0,0 516.2187927159415,737.2368398600926 380.3564355666295,815.677008332985"
+-                             points="0,0 516.2187927159414,737.2368398600926 380.3564355666295,815.677008332985"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 -754.8035111508817,490.17513151352426 -893.2915364771898,109.6824090646328"
+-                             points="0,0 -754.8035111508817,490.17513151352415 -893.2915364771898,109.6824090646328"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon
++                             points="0,0 -893.2915364771898,-109.68240906463296 -754.8035111508816,-490.1751315135244"
+-                             points="0,0 -893.2915364771898,-109.68240906463298 -754.8035111508816,-490.1751315135244"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 380.35643556662967,-815.677008332985 516.2187927159414,-737.2368398600926"
+-                             points="0,0 380.35643556662967,-815.6770083329849 516.2187927159414,-737.2368398600926"
+                              fill="url(#ray-grad)"
+                            >
+                            ...
+                          ...
+                        ...
+                    ...
+          ...
+        ...
+ 
+[32m[1m✓[22m[39m Compiled in 10ms
+ GET / [32m200[39m in 230ms[2m (next.js: 5ms, application-code: 225ms)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+              <Home params={Promise} searchParams={Promise}>
+                <div style={{display:"flex", ...}}>
+                  <Sidebar>
+                  <main ref={{current:null}} style={{flex:1, ...}}>
+                    <Navbar>
+                    <Hero>
+                      <section id="hero" style={{padding:"1...", ...}}>
+                        <div>
+                        <div style={{position:"...", ...}}>
+                          <svg className="hero-sun-rays" style={{position:"...", ...}} width="1400" height="1400" ...>
+                            <defs>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368436,718.7719590425636"
+-                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368434,718.7719590425636"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon
++                             points="0,0 516.2187927159415,737.2368398600926 380.3564355666295,815.677008332985"
+-                             points="0,0 516.2187927159414,737.2368398600926 380.3564355666295,815.677008332985"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 -754.8035111508817,490.17513151352426 -893.2915364771898,109.6824090646328"
+-                             points="0,0 -754.8035111508817,490.17513151352415 -893.2915364771898,109.6824090646328"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon
++                             points="0,0 -893.2915364771898,-109.68240906463296 -754.8035111508816,-490.1751315135244"
+-                             points="0,0 -893.2915364771898,-109.68240906463298 -754.8035111508816,-490.1751315135244"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 380.35643556662967,-815.677008332985 516.2187927159414,-737.2368398600926"
+-                             points="0,0 380.35643556662967,-815.6770083329849 516.2187927159414,-737.2368398600926"
+                              fill="url(#ray-grad)"
+                            >
+                            ...
+                          ...
+                        ...
+                    ...
+          ...
+        ...
+ 
+[32m[1m✓[22m[39m Compiled in 9ms
+ GET / [32m200[39m in 227ms[2m (next.js: 4ms, application-code: 223ms)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+              <Home params={Promise} searchParams={Promise}>
+                <div style={{display:"flex", ...}}>
+                  <Sidebar>
+                  <main ref={{current:null}} style={{flex:1, ...}}>
+                    <Navbar>
+                    <Hero>
+                      <section id="hero" style={{padding:"1...", ...}}>
+                        <div>
+                        <div style={{position:"...", ...}}>
+                          <svg className="hero-sun-rays" style={{position:"...", ...}} width="1400" height="1400" ...>
+                            <defs>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368436,718.7719590425636"
+-                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368434,718.7719590425636"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon
++                             points="0,0 516.2187927159415,737.2368398600926 380.3564355666295,815.677008332985"
+-                             points="0,0 516.2187927159414,737.2368398600926 380.3564355666295,815.677008332985"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 -754.8035111508817,490.17513151352426 -893.2915364771898,109.6824090646328"
+-                             points="0,0 -754.8035111508817,490.17513151352415 -893.2915364771898,109.6824090646328"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon
++                             points="0,0 -893.2915364771898,-109.68240906463296 -754.8035111508816,-490.1751315135244"
+-                             points="0,0 -893.2915364771898,-109.68240906463298 -754.8035111508816,-490.1751315135244"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 380.35643556662967,-815.677008332985 516.2187927159414,-737.2368398600926"
+-                             points="0,0 380.35643556662967,-815.6770083329849 516.2187927159414,-737.2368398600926"
+                              fill="url(#ray-grad)"
+                            >
+                            ...
+                          ...
+                        ...
+                    ...
+          ...
+        ...
+ 
+[32m[1m✓[22m[39m Compiled in 464ms
+ GET / [32m200[39m in 253ms[2m (next.js: 5ms, application-code: 248ms)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+              <Home params={Promise} searchParams={Promise}>
+                <div style={{display:"flex", ...}}>
+                  <Sidebar>
+                  <main ref={{current:null}} style={{flex:1, ...}}>
+                    <Navbar>
+                    <Hero>
+                      <section id="hero" style={{padding:"1...", ...}}>
+                        <div>
+                        <div style={{position:"...", ...}}>
+                          <svg className="hero-sun-rays" style={{position:"...", ...}} width="1400" height="1400" ...>
+                            <defs>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368436,718.7719590425636"
+-                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368434,718.7719590425636"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon
++                             points="0,0 516.2187927159415,737.2368398600926 380.3564355666295,815.677008332985"
+-                             points="0,0 516.2187927159414,737.2368398600926 380.3564355666295,815.677008332985"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 -754.8035111508817,490.17513151352426 -893.2915364771898,109.6824090646328"
+-                             points="0,0 -754.8035111508817,490.17513151352415 -893.2915364771898,109.6824090646328"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon
++                             points="0,0 -893.2915364771898,-109.68240906463296 -754.8035111508816,-490.1751315135244"
+-                             points="0,0 -893.2915364771898,-109.68240906463298 -754.8035111508816,-490.1751315135244"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 380.35643556662967,-815.677008332985 516.2187927159414,-737.2368398600926"
+-                             points="0,0 380.35643556662967,-815.6770083329849 516.2187927159414,-737.2368398600926"
+                              fill="url(#ray-grad)"
+                            >
+                            ...
+                          ...
+                        ...
+                    ...
+          ...
+        ...
+ 
+ GET / [32m200[39m in 196ms[2m (next.js: 3ms, application-code: 193ms)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/#about" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+              <Home params={Promise} searchParams={Promise}>
+                <div style={{display:"flex", ...}}>
+                  <Sidebar>
+                  <main ref={{current:null}} style={{flex:1, ...}}>
+                    <Navbar>
+                    <Hero>
+                      <section id="hero" style={{padding:"1...", ...}}>
+                        <div>
+                        <div style={{position:"...", ...}}>
+                          <svg className="hero-sun-rays" style={{position:"...", ...}} width="1400" height="1400" ...>
+                            <defs>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368436,718.7719590425636"
+-                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368434,718.7719590425636"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon
++                             points="0,0 516.2187927159415,737.2368398600926 380.3564355666295,815.677008332985"
+-                             points="0,0 516.2187927159414,737.2368398600926 380.3564355666295,815.677008332985"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 -754.8035111508817,490.17513151352426 -893.2915364771898,109.6824090646328"
+-                             points="0,0 -754.8035111508817,490.17513151352415 -893.2915364771898,109.6824090646328"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon
++                             points="0,0 -893.2915364771898,-109.68240906463296 -754.8035111508816,-490.1751315135244"
+-                             points="0,0 -893.2915364771898,-109.68240906463298 -754.8035111508816,-490.1751315135244"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 380.35643556662967,-815.677008332985 516.2187927159414,-737.2368398600926"
+-                             points="0,0 380.35643556662967,-815.6770083329849 516.2187927159414,-737.2368398600926"
+                              fill="url(#ray-grad)"
+                            >
+                            ...
+                          ...
+                        ...
+                    ...
+          ...
+        ...
+ 
+ GET / [32m200[39m in 198ms[2m (next.js: 1973µs, application-code: 196ms)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+              <Home params={Promise} searchParams={Promise}>
+                <div style={{display:"flex", ...}}>
+                  <Sidebar>
+                  <main ref={{current:null}} style={{flex:1, ...}}>
+                    <Navbar>
+                    <Hero>
+                      <section id="hero" style={{padding:"1...", ...}}>
+                        <div>
+                        <div style={{position:"...", ...}}>
+                          <svg className="hero-sun-rays" style={{position:"...", ...}} width="1400" height="1400" ...>
+                            <defs>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368436,718.7719590425636"
+-                             points="0,0 801.9058717695311,408.5914497655921 541.6335208368434,718.7719590425636"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon
++                             points="0,0 516.2187927159415,737.2368398600926 380.3564355666295,815.677008332985"
+-                             points="0,0 516.2187927159414,737.2368398600926 380.3564355666295,815.677008332985"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 -754.8035111508817,490.17513151352426 -893.2915364771898,109.6824090646328"
+-                             points="0,0 -754.8035111508817,490.17513151352415 -893.2915364771898,109.6824090646328"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon
++                             points="0,0 -893.2915364771898,-109.68240906463296 -754.8035111508816,-490.1751315135244"
+-                             points="0,0 -893.2915364771898,-109.68240906463298 -754.8035111508816,-490.1751315135244"
+                              fill="url(#ray-grad)"
+                            >
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon>
+                            <polygon
++                             points="0,0 380.35643556662967,-815.677008332985 516.2187927159414,-737.2368398600926"
+-                             points="0,0 380.35643556662967,-815.6770083329849 516.2187927159414,-737.2368398600926"
+                              fill="url(#ray-grad)"
+                            >
+                            ...
+                          ...
+                        ...
+                    ...
+          ...
+        ...
+ 
+[31m    at Proxy.<anonymous> (https://769b69a1-7c5a-4bf7-bbb8-db3a66829aa2-00-2sr2flyf5xfki.kirk.replit.dev/__replco/static/devtools/injected.js:37:27)[39m [2m(https://769b69a1-7c5a-4bf7-bbb8-db3a66829aa2-00-2sr2flyf5xfki.kirk.replit.dev/__replco/static/devtools/injected.js:37:27)[22m

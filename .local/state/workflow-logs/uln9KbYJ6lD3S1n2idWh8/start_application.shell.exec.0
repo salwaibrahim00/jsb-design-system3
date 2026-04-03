@@ -1,0 +1,31 @@
+
+> jsb-design-system@0.1.0 dev
+> next dev -p 5000 -H 0.0.0.0
+
+[1G[0K[1m[38;2;173;127;168m▲ Next.js 16.2.2[39m[22m (Turbopack)
+- Local:         http://localhost:5000
+- Network:       http://0.0.0.0:5000
+[32m[1m✓[22m[39m Ready in 715ms
+
+ GET / [32m200[39m in 3.4s[2m (next.js: 2.8s, application-code: 575ms)[22m
+ GET / [32m200[39m in 3.3s[2m (next.js: 3.1s, application-code: 241ms)[22m
+[32m[1m✓[22m[39m Compiled in 178ms
+[32m[1m✓[22m[39m Compiled in 205ms
+[32m[1m✓[22m[39m Compiled in 252ms
+[32m[1m✓[22m[39m Compiled in 33ms
+[32m[1m✓[22m[39m Compiled in 35ms
+[32m[1m✓[22m[39m Compiled in 33ms
+[37m[1m○[22m[39m Compiling /_not-found/page ...
+ GET /design-system [33m404[39m in 3.4s[2m (next.js: 3.3s, application-code: 57ms)[22m
+ GET / [32m200[39m in 271ms[2m (next.js: 5ms, application-code: 266ms)[22m
+ GET / [32m200[39m in 245ms[2m (next.js: 3ms, application-code: 242ms)[22m
+[32m[1m✓[22m[39m Compiled in 231ms
+ GET / [32m200[39m in 247ms[2m (next.js: 5ms, application-code: 242ms)[22m
+[32m[1m✓[22m[39m Compiled in 31ms
+[32m[1m✓[22m[39m Compiled in 436ms
+[32m[1m✓[22m[39m Compiled in 31ms
+[32m[1m✓[22m[39m Compiled in 31ms
+[32m[1m✓[22m[39m Compiled in 21ms
+[32m[1m✓[22m[39m Compiled in 39ms
+[32m[1m✓[22m[39m Compiled in 741ms
+[32m[1m✓[22m[39m Compiled in 23ms

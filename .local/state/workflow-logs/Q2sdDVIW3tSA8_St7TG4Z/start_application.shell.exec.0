@@ -1,0 +1,30 @@
+
+> jsb-design-system@0.1.0 dev
+> next dev -p 5000 -H 0.0.0.0
+
+[1G[0K[1m[38;2;173;127;168m▲ Next.js 16.2.2[39m[22m (Turbopack)
+- Local:         http://localhost:5000
+- Network:       http://0.0.0.0:5000
+[32m[1m✓[22m[39m Ready in 772ms
+
+ GET / [32m200[39m in 2.1s[2m (next.js: 1291ms, application-code: 798ms)[22m
+ GET / [32m200[39m in 1462ms[2m (next.js: 1130ms, application-code: 332ms)[22m
+ GET / [32m200[39m in 202ms[2m (next.js: 4ms, application-code: 198ms)[22m
+[32m[1m✓[22m[39m Compiled in 506ms
+[32m[1m✓[22m[39m Compiled in 21ms
+[36m[browser][39m [31mUncaught ReferenceError: SizeRow is not defined[39m
+[31m    at BadgesShowcase (app/components/ui/BadgesShowcase.tsx:606:12)
+    at Set.forEach (<anonymous>)
+    at Home (app/page.tsx:129:40)[39m
+  [90m604 |[0m         />
+  [90m605 |[0m         <div style={{ background: [32m"#fff"[0m, border: [32m"1px solid #d8d0c2"[0m...
+[31m[1m>[0m [90m606 |[0m           <[33mSizeRow[0m label=[32m"Small"[0m   fillPct={[35m33[0m}  spec=[32m"10px · 3px 9px.[0m..
+  [90m    |[0m            [31m[1m^[0m
+  [90m607 |[0m           <[33mSizeRow[0m label=[32m"Default"[0m fillPct={[35m60[0m}  spec=[32m"12px · 5px 12p..[0m.
+  [90m608 |[0m           <[33mSizeRow[0m label=[32m"Large"[0m   fillPct={[35m100[0m} spec=[32m"14px · 8px 18p..[0m.
+  [90m609 |[0m         </div>
+[32m[1m✓[22m[39m Compiled in 20ms
+[33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [32m200[39m in 218ms[2m (next.js: 6ms, application-code: 212ms)[22m
+[33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [32m200[39m in 192ms[2m (next.js: 3ms, application-code: 189ms)[22m

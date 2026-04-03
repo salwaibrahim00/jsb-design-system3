@@ -1,0 +1,727 @@
+
+> jsb-design-system@0.1.0 dev
+> next dev -p 5000 -H 0.0.0.0
+
+[1G[0K[1m[38;2;173;127;168m▲ Next.js 16.2.2[39m[22m (Turbopack)
+- Local:         http://localhost:5000
+- Network:       http://0.0.0.0:5000
+[32m[1m✓[22m[39m Ready in 609ms
+
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[36m[browser][39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+[31m[1m⨯[22m[39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+[31m[1m⨯[22m[39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+ GET / [31m500[39m in 2.5s[2m (next.js: 2.4s, application-code: 96ms)[22m
+ GET / [31m500[39m in 2.5s[2m (next.js: 2.4s, application-code: 105ms)[22m
+[31m[1m⨯[22m[39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+ GET / [31m500[39m in 12ms[2m (next.js: 4ms, application-code: 8ms)[22m
+[31m[1m⨯[22m[39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+ GET / [31m500[39m in 15ms[2m (next.js: 7ms, application-code: 7ms)[22m
+[31m[1m⨯[22m[39m ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+
+ GET / [31m500[39m in 11ms[2m (next.js: 4ms, application-code: 8ms)[22m
+[36m[browser][39m [31mUncaught Error: ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+[39m
+[36m[browser][39m [31mUncaught Error: ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+[39m
+[36m[browser][39m [31mUncaught Error: ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+[39m
+[36m[browser][39m [31mUncaught Error: ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+[39m
+[36m[browser][39m [31mUncaught Error: ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /home/runner/workspace/app/globals.css:86:49: Missed semicolon
+    [at error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parser (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:89:29)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+[39m
+[32m[1m✓[22m[39m Compiled in 388ms
+ GET / [32m200[39m in 968ms[2m (next.js: 507ms, application-code: 461ms)[22m
+ GET / [32m200[39m in 981ms[2m (next.js: 781ms, application-code: 200ms)[22m
+ GET / [32m200[39m in 153ms[2m (next.js: 4ms, application-code: 149ms)[22m
+ GET / [32m200[39m in 110ms[2m (next.js: 2ms, application-code: 107ms)[22m
+ GET / [32m200[39m in 75ms[2m (next.js: 3ms, application-code: 71ms)[22m
+ GET / [32m200[39m in 180ms[2m (next.js: 5ms, application-code: 175ms)[22m
+[32m[1m✓[22m[39m Compiled in 459ms
+ GET / [32m200[39m in 330ms[2m (next.js: 270ms, application-code: 61ms)[22m
+ GET / [32m200[39m in 333ms[2m (next.js: 303ms, application-code: 31ms)[22m
+ GET / [32m200[39m in 131ms[2m (next.js: 76ms, application-code: 55ms)[22m
+ GET / [32m200[39m in 131ms[2m (next.js: 102ms, application-code: 29ms)[22m
+ GET / [32m200[39m in 46ms[2m (next.js: 3ms, application-code: 43ms)[22m
+ GET / [32m200[39m in 25ms[2m (next.js: 3ms, application-code: 21ms)[22m
+ GET / [32m200[39m in 17ms[2m (next.js: 2ms, application-code: 14ms)[22m
+ GET / [32m200[39m in 22ms[2m (next.js: 1997µs, application-code: 20ms)[22m
+ GET / [32m200[39m in 17ms[2m (next.js: 2ms, application-code: 15ms)[22m
+ GET / [32m200[39m in 19ms[2m (next.js: 1873µs, application-code: 18ms)[22m
+ GET / [32m200[39m in 16ms[2m (next.js: 2ms, application-code: 14ms)[22m
+ GET / [32m200[39m in 17ms[2m (next.js: 2ms, application-code: 15ms)[22m
+ GET / [32m200[39m in 18ms[2m (next.js: 2ms, application-code: 16ms)[22m
+ GET / [32m200[39m in 18ms[2m (next.js: 2ms, application-code: 16ms)[22m
+ GET / [32m200[39m in 16ms[2m (next.js: 2ms, application-code: 14ms)[22m
+ GET / [32m200[39m in 16ms[2m (next.js: 2ms, application-code: 14ms)[22m
+ GET / [32m200[39m in 16ms[2m (next.js: 2ms, application-code: 14ms)[22m
+ GET / [32m200[39m in 16ms[2m (next.js: 1913µs, application-code: 14ms)[22m
+ GET / [32m200[39m in 21ms[2m (next.js: 1915µs, application-code: 19ms)[22m
+ GET / [32m200[39m in 22ms[2m (next.js: 3ms, application-code: 19ms)[22m
+ GET / [32m200[39m in 253ms[2m (next.js: 3ms, application-code: 251ms)[22m
+ GET /?section=cards [32m200[39m in 150ms[2m (next.js: 4ms, application-code: 147ms)[22m
+ GET / [32m200[39m in 497ms[2m (next.js: 421ms, application-code: 76ms)[22m
+ GET / [32m200[39m in 497ms[2m (next.js: 456ms, application-code: 40ms)[22m
+[32m[1m✓[22m[39m Compiled in 0ms
+ GET / [32m200[39m in 130ms[2m (next.js: 67ms, application-code: 62ms)[22m
+ GET / [32m200[39m in 30ms[2m (next.js: 3ms, application-code: 27ms)[22m
+ GET / [32m200[39m in 17ms[2m (next.js: 1990µs, application-code: 15ms)[22m
+ GET / [32m200[39m in 17ms[2m (next.js: 2ms, application-code: 15ms)[22m
+ GET / [32m200[39m in 20ms[2m (next.js: 2ms, application-code: 18ms)[22m
+ GET / [32m200[39m in 56ms[2m (next.js: 2ms, application-code: 54ms)[22m
+ GET / [32m200[39m in 57ms[2m (next.js: 18ms, application-code: 39ms)[22m
+ GET / [32m200[39m in 23ms[2m (next.js: 3ms, application-code: 20ms)[22m
+ GET / [32m200[39m in 40ms[2m (next.js: 2ms, application-code: 38ms)[22m
+ GET / [32m200[39m in 414ms[2m (next.js: 217ms, application-code: 197ms)[22m
+ GET / [32m200[39m in 438ms[2m (next.js: 1564µs, application-code: 437ms)[22m
+ GET / [32m200[39m in 58ms[2m (next.js: 21ms, application-code: 37ms)[22m
+ GET / [32m200[39m in 438ms[2m (next.js: 3ms, application-code: 434ms)[22m
+ GET / [32m200[39m in 20ms[2m (next.js: 2ms, application-code: 18ms)[22m
+ GET / [32m200[39m in 38ms[2m (next.js: 17ms, application-code: 21ms)[22m
+ GET / [32m200[39m in 58ms[2m (next.js: 3ms, application-code: 55ms)[22m
+ GET / [32m200[39m in 58ms[2m (next.js: 16ms, application-code: 42ms)[22m
+ GET / [32m200[39m in 202ms[2m (next.js: 3ms, application-code: 200ms)[22m
+ GET / [32m200[39m in 21ms[2m (next.js: 4ms, application-code: 17ms)[22m
+ GET / [32m200[39m in 120ms[2m (next.js: 2ms, application-code: 118ms)[22m
+[32m[1m✓[22m[39m Compiled in 101ms
+ GET / [32m200[39m in 113ms[2m (next.js: 66ms, application-code: 47ms)[22m
+ GET / [32m200[39m in 19ms[2m (next.js: 1955µs, application-code: 17ms)[22m
+ GET / [32m200[39m in 16ms[2m (next.js: 2ms, application-code: 13ms)[22m
+ GET / [32m200[39m in 24ms[2m (next.js: 2ms, application-code: 22ms)[22m
+ GET / [32m200[39m in 33ms[2m (next.js: 2ms, application-code: 31ms)[22m
+[36m[browser][39m [31mUncaught ReferenceError: HeroBackground is not defined[39m
+[31m    at Hero (app/components/sections/Hero.tsx:150:8)
+    at Home (file:///home/runner/workspace/.next/dev/static/chunks/app_0ai5w49._.js:15375:223)[39m
+  [90m148 |[0m         zIndex: [35m0[0m,
+  [90m149 |[0m       }} />
+[31m[1m>[0m [90m150 |[0m       <[33mHeroBackground[0m />
+  [90m    |[0m        [31m[1m^[0m
+  [90m151 |[0m
+  [90m152 |[0m       {[90m/* Decorative glow */[0m}
+  [90m153 |[0m       <div style={{
+ GET / [32m200[39m in 18ms[2m (next.js: 2ms, application-code: 16ms)[22m
+ GET / [32m200[39m in 16ms[2m (next.js: 2ms, application-code: 14ms)[22m
+ GET / [32m200[39m in 21ms[2m (next.js: 1637µs, application-code: 20ms)[22m
+[32m[1m✓[22m[39m Compiled in 17ms
+[33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+[33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+[33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+[33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [32m200[39m in 146ms[2m (next.js: 4ms, application-code: 141ms)[22m
+ GET / [32m200[39m in 569ms[2m (next.js: 5ms, application-code: 565ms)[22m
+ GET / [32m200[39m in 153ms[2m (next.js: 3ms, application-code: 150ms)[22m
+ GET / [32m200[39m in 115ms[2m (next.js: 2ms, application-code: 112ms)[22m

@@ -1,0 +1,29 @@
+
+> jsb-design-system@0.1.0 dev
+> next dev -p 5000 -H 0.0.0.0
+
+[1G[0K[1m[38;2;173;127;168m▲ Next.js 16.2.2[39m[22m (Turbopack)
+- Local:         http://localhost:5000
+- Network:       http://0.0.0.0:5000
+[32m[1m✓[22m[39m Ready in 539ms
+
+ GET / [32m200[39m in 1959ms[2m (next.js: 1436ms, application-code: 523ms)[22m
+ GET / [32m200[39m in 1929ms[2m (next.js: 1335ms, application-code: 594ms)[22m
+ GET / [32m200[39m in 1982ms[2m (next.js: 1445ms, application-code: 537ms)[22m
+ GET / [32m200[39m in 143ms[2m (next.js: 3ms, application-code: 139ms)[22m
+ GET / [32m200[39m in 101ms[2m (next.js: 3ms, application-code: 98ms)[22m
+ GET / [32m200[39m in 140ms[2m (next.js: 2ms, application-code: 138ms)[22m
+[32m[1m✓[22m[39m Compiled in 291ms
+[32m[1m✓[22m[39m Compiled in 11ms
+ GET / [32m200[39m in 167ms[2m (next.js: 5ms, application-code: 162ms)[22m
+[32m[1m✓[22m[39m Compiled in 59ms
+ GET / [32m200[39m in 159ms[2m (next.js: 4ms, application-code: 155ms)[22m
+[32m[1m✓[22m[39m Compiled in 1750ms
+ GET / [32m200[39m in 153ms[2m (next.js: 89ms, application-code: 63ms)[22m
+ GET / [32m200[39m in 19ms[2m (next.js: 2ms, application-code: 17ms)[22m
+ GET / [32m200[39m in 37ms[2m (next.js: 3ms, application-code: 34ms)[22m
+ GET / [32m200[39m in 37ms[2m (next.js: 19ms, application-code: 18ms)[22m
+ GET / [32m200[39m in 20ms[2m (next.js: 2ms, application-code: 18ms)[22m
+ GET / [32m200[39m in 20ms[2m (next.js: 2ms, application-code: 18ms)[22m
+ GET / [32m200[39m in 16ms[2m (next.js: 2ms, application-code: 14ms)[22m
+ GET / [32m200[39m in 19ms[2m (next.js: 1979µs, application-code: 17ms)[22m

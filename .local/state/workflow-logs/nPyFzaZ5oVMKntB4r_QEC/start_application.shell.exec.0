@@ -1,0 +1,16 @@
+
+> jsb-design-system@0.1.0 dev
+> next dev -p 5000 -H 0.0.0.0
+
+[1G[0K[1m[38;2;173;127;168m▲ Next.js 16.2.2[39m[22m (Turbopack)
+- Local:         http://localhost:5000
+- Network:       http://0.0.0.0:5000
+[32m[1m✓[22m[39m Ready in 366ms
+
+ GET / [32m200[39m in 1385ms[2m (next.js: 912ms, application-code: 473ms)[22m
+ GET / [32m200[39m in 1254ms[2m (next.js: 1053ms, application-code: 201ms)[22m
+ GET / [32m200[39m in 157ms[2m (next.js: 3ms, application-code: 154ms)[22m
+ GET / [32m200[39m in 124ms[2m (next.js: 5ms, application-code: 119ms)[22m
+ GET / [32m200[39m in 79ms[2m (next.js: 3ms, application-code: 77ms)[22m
+ GET / [32m200[39m in 141ms[2m (next.js: 3ms, application-code: 138ms)[22m
+ GET / [32m200[39m in 168ms[2m (next.js: 5ms, application-code: 163ms)[22m

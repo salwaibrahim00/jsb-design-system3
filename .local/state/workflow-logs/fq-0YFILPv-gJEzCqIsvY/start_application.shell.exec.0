@@ -1,0 +1,160 @@
+
+> jsb-design-system@0.1.0 dev
+> next dev -p 5000 -H 0.0.0.0
+
+[1G[0K[1m[38;2;173;127;168m▲ Next.js 16.2.2[39m[22m (Turbopack)
+- Local:         http://localhost:5000
+- Network:       http://0.0.0.0:5000
+[32m[1m✓[22m[39m Ready in 926ms
+
+ GET / [32m200[39m in 997ms[2m (next.js: 588ms, application-code: 409ms)[22m
+ GET / [32m200[39m in 226ms[2m (next.js: 5ms, application-code: 221ms)[22m
+[32m[1m✓[22m[39m Compiled in 5.8s
+ GET / [32m200[39m in 346ms[2m (next.js: 14ms, application-code: 332ms)[22m
+[36m[browser][39m A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <InnerLayoutRouter url="/#colors" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+      <SegmentViewNode type="page" pagePath="page.tsx">
+        <SegmentTrieNode>
+        <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+          <Home params={Promise} searchParams={Promise}>
+            <div style={{display:"flex", ...}}>
+              <Sidebar>
+              <main ref={{current:null}} style={{flex:1, ...}}>
+                <Navbar>
+                <Hero>
+                <div>
+                <div>
+                <HorizontalServices>
+                <MarqueeStrip>
+                <div>
+                <div>
+                <Breadcrumb>
+                <div>
+                <div>
+                <div>
+                <div>
+                <div>
+                <div>
+                <div>
+                <div>
+                <div>
+                <div>
+                <div>
+                <div id="toasts" data-reveal={true}>
+                  <ToastShowcase>
+                    <section style={{padding:"9...", ...}}>
+                      <div style={{maxWidth:"...", ...}}>
+                        <div>
+                        <div>
+                        <div style={{...}}>
+                          <div>
+                          <div style={{...}}>
+                            <div>
+                            <div style={{display:"flex", ...}}>
+                              <input
+                                value=""
+                                onChange={function onChange}
+                                onKeyDown={function onKeyDown}
+                                placeholder="Write a success message… (press Enter to send)"
+                                maxLength={120}
+                                style={{
++                                 flex: 1
++                                 padding: "12px 18px"
++                                 borderRadius: "12px"
++                                 background: "rgba(255,255,255,0.05)"
++                                 border: "1.5px solid rgba(255,255,255,0.1)"
++                                 color: "white"
+-                                 color: "white"
++                                 fontSize: "14px"
++                                 fontFamily: "var(--font-body)"
++                                 outline: "none"
++                                 transition: "border-color 0.15s"
+-                                 flex-grow: "1"
+-                                 flex-shrink: "1"
+-                                 flex-basis: "0%"
+-                                 padding-top: "12px"
+-                                 padding-right: "18px"
+-                                 padding-bottom: "12px"
+-                                 padding-left: "18px"
+-                                 border-top-left-radius: "12px"
+-                                 border-top-right-radius: "12px"
+-                                 border-bottom-right-radius: "12px"
+-                                 border-bottom-left-radius: "12px"
+-                                 background-image: "initial"
+-                                 background-position-x: "initial"
+-                                 background-position-y: "initial"
+-                                 background-size: "initial"
+-                                 background-repeat: "initial"
+-                                 background-attachment: "initial"
+-                                 background-origin: "initial"
+-                                 background-clip: "initial"
+-                                 background-color: "rgba(255, 255, 255, 0.05)"
+-                                 border-top-width: "1.5px"
+-                                 border-right-width: "1.5px"
+-                                 border-bottom-width: "1.5px"
+-                                 border-left-width: "1.5px"
+-                                 border-top-style: "solid"
+-                                 border-right-style: "solid"
+-                                 border-bottom-style: "solid"
+-                                 border-left-style: "solid"
+-                                 border-top-color: "rgba(255, 255, 255, 0.1)"
+-                                 border-right-color: "rgba(255, 255, 255, 0.1)"
+-                                 border-bottom-color: "rgba(255, 255, 255, 0.1)"
+-                                 border-left-color: "rgba(255, 255, 255, 0.1)"
+-                                 border-image-source: "initial"
+-                                 border-image-slice: "initial"
+-                                 border-image-width: "initial"
+-                                 border-image-outset: "initial"
+-                                 border-image-repeat: "initial"
+-                                 font-size: "14px"
+-                                 font-family: "var(--font-body)"
+-                                 outline-color: "initial"
+-                                 outline-style: "none"
+-                                 outline-width: "initial"
+-                                 transition-behavior: "normal"
+-                                 transition-duration: "0.15s"
+-                                 transition-timing-function: "ease"
+-                                 transition-delay: "0s"
+-                                 transition-property: "border-color"
+-                                 caret-color: "transparent"
+                                }}
+                              >
+                              ...
+                            ...
+                        ...
+                      ...
+                ...
+      ...
+ 
+[32m[1m✓[22m[39m Compiled in 28ms
+[32m[1m✓[22m[39m Compiled in 772ms
+[36m[browser][39m [31mUncaught ReferenceError: BodyRow is not defined[39m
+[31m    at eval (app/components/ui/Typography.tsx:467:16)
+    at Array.map (<anonymous>)
+    at Typography (app/components/ui/Typography.tsx:466:24)
+    at Set.forEach (<anonymous>)
+    at Home (app/page.tsx:127:40)[39m
+  [90m465 |[0m           <div style={{ background: [32m"#fff"[0m, border: [32m"1px solid #d8d0c..[0m.
+  [90m466 |[0m             {[33mBODY_ROWS[0m.map((row, i) => (
+[31m[1m>[0m [90m467 |[0m               <[33mBodyRow[0m key={row.token} row={row} last={i === [33mBODY_ROW.[0m..
+  [90m    |[0m                [31m[1m^[0m
+  [90m468 |[0m             ))}
+  [90m469 |[0m           </div>
+  [90m470 |[0m         </div>
+[32m[1m✓[22m[39m Compiled in 17ms
+[33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [32m200[39m in 225ms[2m (next.js: 5ms, application-code: 220ms)[22m
+[33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [32m200[39m in 230ms[2m (next.js: 3ms, application-code: 227ms)[22m

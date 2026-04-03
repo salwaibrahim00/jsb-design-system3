@@ -1,0 +1,30 @@
+
+> jsb-design-system@0.1.0 dev
+> next dev -p 5000 -H 0.0.0.0
+
+[1G[0K[1m[38;2;173;127;168m▲ Next.js 16.2.2[39m[22m (Turbopack)
+- Local:         http://localhost:5000
+- Network:       http://0.0.0.0:5000
+[32m[1m✓[22m[39m Ready in 343ms
+
+ GET / [32m200[39m in 1557ms[2m (next.js: 935ms, application-code: 622ms)[22m
+ GET / [32m200[39m in 1147ms[2m (next.js: 903ms, application-code: 244ms)[22m
+[32m[1m✓[22m[39m Compiled in 3.5s
+[36m[browser][39m [31mUncaught ReferenceError: DocRow is not defined[39m
+[31m    at eval (app/components/ui/BadgesShowcase.tsx:781:14)
+    at Array.map (<anonymous>)
+    at BadgesShowcase (app/components/ui/BadgesShowcase.tsx:780:21)
+    at Set.forEach (<anonymous>)
+    at Home (app/page.tsx:129:40)[39m
+  [90m779 |[0m         <div style={{ background: [32m"#fff"[0m, border: [32m"1px solid #d8d0c2"[0m...
+  [90m780 |[0m           {[33mDOC_ROWS[0m.map((row, i) => (
+[31m[1m>[0m [90m781 |[0m             <[33mDocRow[0m key={row.title} row={row} last={i === [33mDOC_ROWS[0m.le...
+  [90m    |[0m              [31m[1m^[0m
+  [90m782 |[0m           ))}
+  [90m783 |[0m         </div>
+  [90m784 |[0m
+[32m[1m✓[22m[39m Compiled in 21ms
+[33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+[33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ GET / [32m200[39m in 226ms[2m (next.js: 3ms, application-code: 223ms)[22m
+ GET / [32m200[39m in 469ms[2m (next.js: 5ms, application-code: 463ms)[22m
